@@ -28,9 +28,18 @@ console.log(mathText);
 
 console.log('-------------------');
 
-const name = 'Petras';
+const petrasName = 'Petras';
 const age = 99;
 
 //Petras age is 99.
-const petrasAge = name + ' age is ' + age + '.';
+const petrasAge = petrasName + ' age is ' + age + '.';
 console.log(petrasAge)
+
+console.log('--------------');
+
+//sarasas (array)
+const pazymiai = [5, 7, 8, 4, 6];
+console.log(pazymiai);
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(abc);
