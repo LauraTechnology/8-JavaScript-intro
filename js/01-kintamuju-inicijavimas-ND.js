@@ -1,12 +1,12 @@
 // 1.Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
 // Po kiekvieno jų inicijavimo, išvesti į console
-var pirmadienis = 1;
+let pirmadienis = 1;
 console.log(pirmadienis);
 
-var antradienis = 2;
+let antradienis = 2;
 console.log(a)
 
-var treciadienis = 3;
+let treciadienis = 3;
 console.log(treciadienis);
 
 
