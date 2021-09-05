@@ -23,3 +23,4 @@
 // d.	ar jie nelygūs
 // e.	kuris didesnis arba lygus
 // f.	kuris mažesnis arba lygus
+>>

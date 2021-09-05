@@ -1,12 +1,12 @@
 //1.	Susumuoti visus skaičiaus tipo kintamuosius
 //a.	Rezultatą išvesti į console
-let pirmas = 1;
+const pirmas = 1;
 
-let antras = 2;
+const antras = 2;
 
-let trecias = 3;
+const trecias = 3;
 
-let skaiciuTipoKintamujuSuma = pirmas + antras + trecias;
+const skaiciuTipoKintamujuSuma = pirmas + antras + trecias;
 console.log(skaiciuTipoKintamujuSuma);
 
 console.log('-------------------');
@@ -16,11 +16,11 @@ console.log('-------------------');
 //      jog tarp jų būtų sudarytas tarpas
 //a.	Rezultatą išvesti į console
 
-let spalva = 'zalia';
-let ugis = 'aukstai';
-let isvaizda = 'grazu';
+const spalva = 'zalia';
+const ugis = 'aukstai'
+const isvaizda = 'grazu';
 
-let sujungtiTekstoTipoKintamieji = 'zalia'+' '+'aukstai'+' '+'grazu';
+const sujungtiTekstoTipoKintamieji = 'zalia'+' '+'aukstai'+' '+'grazu';
 console.log(sujungtiTekstoTipoKintamieji);
 
 
@@ -31,17 +31,17 @@ console.log('-------------------');
 //a.	1-2+3-4+5
 //b.	Rezultatą išvesti į console
 
-let menesioDatos = [15, 23, 6, 12, 11];
-let valueMenesioDienos = 15 - 23 + 6 - 12 + 11;
+const menesioDatos = [15, 23, 6, 12, 11];
+const valueMenesioDienos = 15 - 23 + 6 - 12 + 11;
 console.log(valueMenesioDienos);
 
-let savaitesNumeriai = [1, 2, 3, 4, 5];
-let valueSavNum = 1 - 2 + 3 - 4 + 5;
+const savaitesNumeriai = [1, 2, 3, 4, 5];
+const valueSavNum = 1 - 2 + 3 - 4 + 5;
 console.log(valueSavNum);
 
 
-let lyginesDienos = [4, 8, 10, 12, 14]
-let valueLygDien = 4 - 8 + 10 - 12 + 14;
+const lyginesDienos = [4, 8, 10, 12, 14]
+const valueLygDien = 4 - 8 + 10 - 12 + 14;
 console.log(valueLygDien)
 
 console.log('-------------------');
@@ -51,15 +51,15 @@ console.log('-------------------');
 //   nuo sąrašo galo iki pradžios taip, 
 //   jog tarp jų būtų kablelis ir tarpas
 
-let dienosDarbui = ['pirmadienis', 'antradienis', 'treciadienis', 'ketvirtadienis', 'penktadienis'];
-let valueDienosDarbui = 'pirmadienis'+','+' '+'antradienis'+','+' '+'treciadienis'+','+' '+'ketvirtadienis'+','+' '+'penktadienis';
+const dienosDarbui = ['pirmadienis', 'antradienis', 'treciadienis', 'ketvirtadienis', 'penktadienis'];
+const valueDienosDarbui = 'pirmadienis'+','+' '+'antradienis'+','+' '+'treciadienis'+','+' '+'ketvirtadienis'+','+' '+'penktadienis';
 
 console.log(valueDienosDarbui);
 
 
-let pirmiPenkiMenesiai = ['sausis', 'vasaris', 'kovas', 'balandis', 'geguze'];
+const pirmiPenkiMenesiai = ['sausis', 'vasaris', 'kovas', 'balandis', 'geguze'];
 
 
-let metuSezonai = ['vasara', 'pavasaris', 'ziema', 'ruduo', 'atostogos'];
+const metuSezonai = ['vasara', 'pavasaris', 'ziema', 'ruduo', 'atostogos'];
 
 
