@@ -38,8 +38,8 @@ console.log(petrasAge)
 console.log('--------------');
 
 //sarasas (array)
-const pazymiai = [5, 7, 8, 4, 6];
+/* const pazymiai = [5, 7, 8, 4, 6];
 console.log(pazymiai);
 
 const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
-console.log(abc);
+console.log(abc); */
