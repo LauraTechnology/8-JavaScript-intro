@@ -11,6 +11,7 @@ const abcIlgis = abc.length;
 const paskutinesRaidesPozicija = abcIlgis - 1;
 const paskutineRaide = abc[paskutinesRaidesPozicija];
 
-console.log(paskutineRaide);
+const abcAtsakymas = 'Is mums zinomos ' + abcIlgis + ' raidziu abeceles paskutine yra "' + paskutineRaide + '"';
+console.log(abcAtsakymas);
 
 console.log('-------------------');
