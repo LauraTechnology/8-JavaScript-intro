@@ -9,6 +9,6 @@ if () {} else {}
 palyginimo operatoriai:
 -visi: >, <, >=, <=, ==, !=, ===,!==
 -naudotini:>, <, >=, <=, ===,!==
--nenaudotini: ==, !=,
+-nenaudotini: ==, !=, (nes nera tikrinamas reiksmiu tipas (ar skaitinis(123) ar tekstinis(abc))
 
 */
