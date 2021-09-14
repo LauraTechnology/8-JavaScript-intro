@@ -5,6 +5,9 @@ IF STATEMENT:
 logikos sablonai
 if () {}
 if () {} else {}
+if () {} else if {}
+if () {} else if {} ... else if {}
+if () {} else if {} ... else if {} else {}
 
 palyginimo operatoriai:
 -visi: >, <, >=, <=, ==, !=, ===,!==
