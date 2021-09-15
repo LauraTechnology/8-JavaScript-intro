@@ -33,8 +33,9 @@ if (animal === 'dog') {
 console.log('----------');
 
 // Arbatos paruosimo logika
+// su IF ELSE
 
-const process = 1;
+const process = 4;
 
 if (process === 1) {
     console.log('paimti puodeli');
@@ -48,6 +49,29 @@ if (process === 1) {
     console.log('ismiasyti');
 } else if (process === 6) {
     console.log('gerti');
+}
+
+// Arbatos paruosimo logika
+// su SWITCH ( switch, stage, break)
+
+switch (process) {
+    case 1:
+        console.log('paimti puodeli');
+    case 2:
+        console.log('isideti arbatos');
+    case 3:
+        console.log('isideti saldikli');
+    case 4:
+        console.log('ipilti vandens');
+    case 5:
+        console.log('ismaisyti');
+    case 6:
+        console.log('gerti');
+        break;
+        
+    default:
+        console.log('Tu turi puodelį karštos arbatos ;)');
+
 }
 
 
