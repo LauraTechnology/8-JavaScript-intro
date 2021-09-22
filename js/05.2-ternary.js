@@ -17,3 +17,27 @@
 // } else {
 //   serveDrink("Wine");
 // }
+
+
+const pirmadienis = 1;
+const penktadienis = 5;
+/* siandien treciadienis */
+
+let kada = '';
+
+if ( pirmadienis > penktadienis) {
+    kada = 'vėliau';
+} else {
+    kada = 'anksčiau';
+}
+
+console.log(kada);
+
+console.log('------------');
+
+const pienas = 2;
+const duona = 1;
+
+const pirkiniai = pienas > duona ? 'nepirksiu' : 'pirksiu';
+
+console.log(pirkiniai);
