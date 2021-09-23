@@ -7,14 +7,14 @@ console.log(sum3);
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
 
-markIndex3 = markIndex3 + 1;
+markIndex3 += 1;
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
 
-markIndex3 = markIndex3 + 1;
+markIndex3 += 1;
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
 
-markIndex3 = markIndex3 + 1;
+markIndex3 += 1;
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
