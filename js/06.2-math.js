@@ -49,6 +49,20 @@ abcIndex++;
 zodis += abc[abcIndex];
     console.log(zodis);
 
+console.log('----------');
+
+let a = 5;
+a++
+console.log(a);
+a++
+console.log(a);
+a++
+console.log(a);
+a++
+console.log(a);
+a++
+console.log(a);
+
 
 
 
