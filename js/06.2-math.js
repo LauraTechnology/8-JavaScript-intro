@@ -7,15 +7,15 @@ console.log(sum3);
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
 
-markIndex3 += 1;
+markIndex3++;
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
 
-markIndex3 += 1;
+markIndex3++;
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
 
-markIndex3 += 1;
+markIndex3++;
 sum3 += marks3[markIndex3];
 console.log('sum3:', sum3);
 
@@ -29,22 +29,22 @@ let abcIndex = 0;
 zodis += abc[abcIndex];
     console.log(zodis);
 
-abcIndex += 1;
+abcIndex++;
     console.log(abcIndex);
 zodis += abc[abcIndex];
     console.log(zodis);
 
-abcIndex += 1;
+abcIndex++;
     console.log(abcIndex);
 zodis += abc[abcIndex];
     console.log(zodis);
 
-abcIndex += 1;
+abcIndex++;
     console.log(abcIndex);
 zodis += abc[abcIndex];
     console.log(zodis);
 
-    abcIndex += 1;
+abcIndex++;
     console.log(abcIndex);
 zodis += abc[abcIndex];
     console.log(zodis);
