@@ -1,5 +1,4 @@
 // sukurti masyva (sarasa/array) ir sukurti jam loop (cikla)
-
 const savaite = ['Prd', 'And', 'Trd', 'Ktd', 'Ptd', 'Štd', 'Skd'];
 
 console.log(savaite);

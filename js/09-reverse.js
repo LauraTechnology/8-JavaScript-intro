@@ -38,5 +38,18 @@ for (let i = text.length; i > 0; i--) {
 
 console.log(text, '->', reverse);
 
+console.log('-----------');
 
-sukurti masyva (sarasa/array) ir sukurti jam loop (cikla)
+const sakinys = 'Labas rytas';
+
+//for (let i = 0; i < sakinys.length; i++) {
+//    const simbolis = sakinys[i];
+//    console.log(simbolis);
+//}
+
+for (let i = 0; i < sakinys.length; i++) {
+    console.log(sakinys[i]);
+}
+
+console.log('----------');
+
