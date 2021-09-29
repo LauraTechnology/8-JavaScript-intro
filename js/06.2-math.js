@@ -21,35 +21,6 @@ console.log('sum3:', sum3);
 
 console.log('------------');
 
-const abc = ['r', 'y', 't', 'a', 's'];
-
-let zodis = '';
-let abcIndex = 0;
-
-zodis += abc[abcIndex];
-    console.log(zodis);
-
-abcIndex++;
-    console.log(abcIndex);
-zodis += abc[abcIndex];
-    console.log(zodis);
-
-abcIndex++;
-    console.log(abcIndex);
-zodis += abc[abcIndex];
-    console.log(zodis);
-
-abcIndex++;
-    console.log(abcIndex);
-zodis += abc[abcIndex];
-    console.log(zodis);
-
-abcIndex++;
-    console.log(abcIndex);
-zodis += abc[abcIndex];
-    console.log(zodis);
-
-console.log('----------');
 
 let a = 5;
 console.log(++a);
@@ -59,6 +30,7 @@ console.log(++a);
 console.log(++a);
 console.log(++a);
 
+console.log(++a);
 
 
 

@@ -1,3 +1,24 @@
+/*
+
+FOR LOOP (ciklas):
+
+for () {}
+
+*/
+
+const rytas = ['r', 'y', 't', 'a', 's'];
+
+let zodis = '';
+let rytasIndex = 0;
+zodis += rytas[rytasIndex++];
+zodis += rytas[rytasIndex++];
+zodis += rytas[rytasIndex++];
+zodis += rytas[rytasIndex++];
+zodis += rytas[rytasIndex++];
+
+    console.log(zodis);
+
+console.log('----------');
 
 
 // Parasyti cikla, kurima isspaudinsiu skaicius nuo 3 iki 7 imtinai
