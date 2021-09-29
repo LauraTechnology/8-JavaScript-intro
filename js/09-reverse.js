@@ -4,27 +4,27 @@
 /* 1 būdas */
 
 const text = 'abcdef';
+    console.log('text');
 let reverse = '';
-const masyvas = ['vienas', 'du', 3]
-console.log(masyvas[1])
 
-// for (let i = 0; i < text.length; i++) {
-//     reverse = text[i] + reverse; /* reverse += text [i] 
-// }
+
+ for (let i = 0; i < text.length; i++) {
+     reverse = text[i] + reverse; /* reverse += text [i] 
+ }
 
 
 
 /* 2 būdas */
 
-// for (let i = 0; i < text.length; i++) {
-//     reverse += text[text.length - 1 - i];
-// }
-// 
-// /* 3 būdas */
-// 
-// for (let i = text.length - 1; i >= 0; i--) {
-//     reverse += text[i];
-// }
+ for (let i = 0; i < text.length; i++) {
+     reverse += text[text.length - 1 - i];
+ }
+ 
+ /* 3 būdas */
+ 
+ for (let i = text.length - 1; i >= 0; i--) {
+     reverse += text[i];
+ }
 
 /* 4 būdas */
 
@@ -42,10 +42,10 @@ console.log('-----------');
 
 const sakinys = 'Labas rytas';
 
-//for (let i = 0; i < sakinys.length; i++) {
-//    const simbolis = sakinys[i];
-//    console.log(simbolis);
-//}
+for (let i = 0; i < sakinys.length; i++) {
+    const simbolis = sakinys[i];
+    console.log(simbolis);
+}
 
 for (let i = 0; i < sakinys.length; i++) {
     console.log(sakinys[i]);
