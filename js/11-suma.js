@@ -21,3 +21,16 @@ console.log('--------');
 desimteriopa_suma(c, d);
 console.log('--------');
 desimteriopa_suma(e, f);
+
+
+console.log('---------');
+
+//f(x) = x*x;
+
+function kvadratu(x) {
+    console.log(x * x);
+}
+
+kvadratu(5)
+kvadratu(55)
+kvadratu(543)
