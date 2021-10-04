@@ -15,5 +15,5 @@ const daliklis = 3;
 let kiekis = 0;
 
 for (let i = nuo; i <= iki; i++) {
-    console.log(i, i / daliklis);
+    console.log(i, i % daliklis);
 }
