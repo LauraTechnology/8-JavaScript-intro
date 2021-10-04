@@ -15,5 +15,13 @@ const daliklis = 3;
 let kiekis = 0;
 
 for (let i = nuo; i <= iki; i++) {
-    console.log(i, i % daliklis);
+    if (i % daliklis === 0) {
+        kiekis++ /* kiekis = kiekis + 1 -> kiekis += 1 -> kiekis++ */
+    }
 }
+
+// Jeigu i-dalinant-iš-daliklio-liekana yra 0, tada kiekis dideja vienetu
+
+const ats = `Skaičių intervale tarp ${nuo} ir ${iki}, besidalijančių be liekanos iš ${daliklis} yra ${kiekis} vienetai.`;
+
+console.log(ats);
