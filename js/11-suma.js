@@ -34,3 +34,14 @@ function kvadratu(x) {
 kvadratu(5)
 kvadratu(55)
 kvadratu(543)
+
+
+console.log('---------');
+
+function labas(vardas, amzius, vietovardis) {
+    console.log(`Labas, as esu ${vardas}, man ${amzius} metai ir gyvenu ${vietovardis}.`);
+}
+ 
+labas('Petras', 88, 'vilniuje');
+labas('Maryte', 77, 'Kaune');
+labas('Alphe', 5, 'namie');
