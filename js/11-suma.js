@@ -1,26 +1,17 @@
-const a = 8;
-const b = 5;
+const a = 2;
+const b = 4;
 
-const c = 99;
-const d = 88;
+const c = 3;
+const d = 6;
 
-const e = 54155;
-const f = 89514;
+const e = 8;
+const f = 5;
 
-// suma:
-// const s = (a + b) * 10;
-// console.log(s);
-
-function desimteriopa_suma(pirmas, antras) {
+function skaicius(pirmas, antras) {
     console.log(pirmas);
     console.log(antras);
 }
 
-desimteriopa_suma(a, b);
-console.log('--------');
-desimteriopa_suma(c, d);
-console.log('--------');
-desimteriopa_suma(e, f);
 
 
 console.log('---------');
